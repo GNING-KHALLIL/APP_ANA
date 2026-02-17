@@ -15,13 +15,14 @@ TEXT_COLUMNS = {
 }
 
 SORT_COLUMNS = [
+    "approche simplifié",
     "main method",
+    "Application",
+    "times cited",
     "score",
     "quartile",
-    "approche simplifié",
-    "Application",
-    "year",
-    "times cited"
+    "year"
+    
 ]
 
 ALLOWED_EXTENSIONS = {"csv", "xlsx"}
