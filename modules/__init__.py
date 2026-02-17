@@ -6,7 +6,7 @@ scientific literature on mangrove mapping
 using remote sensing and AI.
 """
 
-__author__ = "Your Name"
+__author__ = "Ibrahima GNING"
 __version__ = "0.1.0"
 
 # Public API of the package
