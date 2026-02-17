@@ -67,13 +67,13 @@ def sortable_dataframe(
                     "",
                     ["Ascending", "Descending"],
                     horizontal=True,
-                    key=f"order_{col_name}"
+                    key=f"order_{col_name}_{i}"
                 )
                 sort_orders.append(order == "Ascending")
 
                 if st.button("❌", key=f"remove_{col_name}_{i}"):
                     st.session_state.sort_by.remove(col_name)
-                    sort_orders.pop(-1)
+                    sort_orders.pop(i)
                     st.rerun()
             # Bouton Clear all
         if st.button("🧹 Clear all sorting"):
